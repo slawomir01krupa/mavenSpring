@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;masterSpringMvc.controller.HelloController&apos; to &apos;TweetController&apos;&#x0A;- Original project: &apos;masterSpringMvc&apos;&#x0A;- Original element: &apos;masterSpringMvc.controller.HelloController&apos;&#x0A;- Renamed element: &apos;masterSpringMvc.controller.TweetController&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;HelloController&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;masterSpringMvc.controller{HelloController.java[HelloController" matchStrategy="1" name="TweetController" qualified="false" references="true" similarDeclarations="false" stamp="1446455913706" textual="false" version="1.0"/>
+</session>

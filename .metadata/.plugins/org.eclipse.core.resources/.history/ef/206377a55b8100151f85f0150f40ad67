@@ -1,0 +1,32 @@
+package masterSpringMvc.profile;
+
+import java.util.Locale;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import masterSpringMvc.date.USLocalDateFormatter;
+
+@Controller
+public class ProfileController {
+	
+	@ModelAttribute("dateFormat")
+	public String localeFormat(Locale locale){
+		return USLocalDateFormatter.getPattern(locale);
+	}
+
+	@RequestMapping(value = "/profile", method = RequestMethod.GET)
+	public String displayProfile(){
+		return "profile/profilePage";
+	}
+	
+	@RequestMapping(value = "/profile", method = RequestMethod.POST)
+    public String saveProfile(ProfileForm profileForm) {
+        System.out.println("save ok" + profileForm);
+        return "redirect:/profile";
+    }
+	
+	
+}

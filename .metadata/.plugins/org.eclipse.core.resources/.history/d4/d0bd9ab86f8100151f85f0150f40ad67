@@ -23,9 +23,7 @@ public class ProfileController {
 	@RequestMapping(value = "/profile", method = RequestMethod.GET)
 	public String displayProfile(ProfileForm profileForm){
 		
-		
 		return "profile/profilePage";
-		
 		
 	}
 	

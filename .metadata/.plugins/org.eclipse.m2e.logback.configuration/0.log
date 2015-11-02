@@ -653,3 +653,8 @@
 2015-11-02 14:31:01,818 [Worker-2571] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
 2015-11-02 14:31:01,819 [Worker-2571] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2015-11-02 14:31:01,819 [Worker-2571] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Workspace/mavenSpring/masterSpringMvc/src/test/resources
+2015-11-02 14:40:54,483 [Worker-2580] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 14:40:54,483 [Worker-2580] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-11-02 14:40:54,484 [Worker-2580] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2015-11-02 14:40:54,485 [Worker-2580] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-02 14:40:54,485 [Worker-2580] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Workspace/mavenSpring/masterSpringMvc/src/test/resources

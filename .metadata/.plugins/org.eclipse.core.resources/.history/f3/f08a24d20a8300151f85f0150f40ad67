@@ -1,0 +1,7 @@
+server.port=8181
+debug=true
+spring.thymeleaf.cache=false
+spring.social.twitter.app-id=PVVwwgOc7clrGmLlTHez69DI8
+spring.social.twitter.app-secret=C6ZSEgIH8C3P04F6RA2x9qpAjD2fuVLQeBRhJJF2bNq7RHZ8Br
+logging.level.org.springframework.web = DEBUG
+spring.mvc.locale=fr

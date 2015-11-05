@@ -1,0 +1,5 @@
+package masterSpringMvc.config;
+
+public class PictureUploadProperties {
+
+}

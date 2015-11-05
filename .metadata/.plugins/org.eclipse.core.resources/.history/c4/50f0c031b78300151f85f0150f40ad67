@@ -1,0 +1,24 @@
+package masterSpringMvc.config;
+
+import javax.annotation.Resource;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.core.io.DefaultResourceLoader;
+
+@ConfigurationProperties(prefix = "upload.pictures")
+public class PictureUploadProperties {
+	  private Resource uploadPath;
+      private Resource anonymousPicture;
+      public Resource getAnonymousPicture() {
+          return anonymousPicture;
+}
+      public void setAnonymousPicture(String anonymousPicture) {
+          this.anonymousPicture = (Resource) new DefaultResourceLoader().getResource(anonymousPicture);
+      }
+      public Resource getUploadPath() {
+          return uploadPath;
+}
+      public void setUploadPath(String uploadPath) {
+          this.uploadPath = (Resource) new DefaultResourceLoader().getResource(uploadPath);
+      }
+}

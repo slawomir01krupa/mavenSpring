@@ -87,9 +87,8 @@ public class PictureUploadController {
 
 	private Resource copyFileToPictures(MultipartFile file) throws IOException {
 		String fileExtension = getFileExtension(file.getOriginalFilename());
-		File tempFile = File.createTempFile("pic", fileExtension, 
-				//picturesDir.getFile());
-		 PICTURES_DIR.getFile());
+		File tempFile = File.createTempFile("pic", fileExtension, picturesDir.getFile());
+		// PICTURES_DIR.getFile());
 		try (InputStream in = file.getInputStream(); OutputStream out = new FileOutputStream(tempFile)) {
 			IOUtils.copy(in, out);
 		}

@@ -5065,3 +5065,6 @@ org.eclipse.core.internal.resources.ResourceException: Resource is out of sync w
 
 !ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2015-11-05 13:22:00.103
 !MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2015-11-05 13:23:24.201
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported

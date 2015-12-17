@@ -61,7 +61,7 @@ public class PictureUploadController {
 		return "profile/uploadPage";
 	}
 
-	@RequestMapping(value="/uploadedPicture")
+	@RequestMapping(value = "/uploadedPicture")
 	public void getUploadedPicture(HttpServletResponse response, 
 			@ModelAttribute("picturePath") Path picturePath) throws IOException {
 		 ClassPathResource classPathResource = new ClassPathResource("/images/anonymous.png");
